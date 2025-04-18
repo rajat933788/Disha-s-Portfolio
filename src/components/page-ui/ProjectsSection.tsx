@@ -8,8 +8,8 @@ export function ProjectsSection() {
 
 const products = [
     {
-        title: 'Mern Memories',
-        link: 'https://github.com/spojskic/mern-memories',
+        title: 'Finance tracker',
+        link: 'https://financetracker-mu.vercel.app/',
         thumbnail: '/projects/mern-memories.png'
     },
     {

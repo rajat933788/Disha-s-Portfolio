@@ -12,7 +12,7 @@ const spaceGrotesk = Space_Grotesk({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
     metadataBase: new URL('https://safetpojskic.com'),
-    title: 'Safet Pojskic',
+    title: 'Disha Agrawa;',
     description: 'Welcome to my personal portfolio!',
     applicationName: 'Safet Pojskic',
     keywords: ['Safet Pojskic', 'portfolio', 'personal', 'website', 'developer', 'designer', 'engineer', 'software', 'engineer'],

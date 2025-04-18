@@ -1,8 +1,9 @@
 import Link from 'next/link';
 import React from 'react';
-import { FaJava, FaReact } from 'react-icons/fa';
-import { SiPostgresql, SiSpringboot, SiTailwindcss } from 'react-icons/si';
-import { TbBrandNextjs } from 'react-icons/tb';
+import { FaJava  } from 'react-icons/fa';
+import { SiChainlink,SiTailwindcss} from 'react-icons/si';
+import { SiOpenai, SiPython, SiTensorflow } from 'react-icons/si';
+import { TbBrandNextjs} from 'react-icons/tb';
 
 import { EvervaultCard, Icon } from '@/components/ui/evervault-card';
 
@@ -34,14 +35,14 @@ export function SkillsSection() {
 
 const skills = [
     {
-        title: 'React.js',
-        link: 'https://react.dev/',
-        icon: <FaReact />
+        title: 'Python',
+        link: 'https://www.python.org/',
+        icon: <SiPython />
     },
     {
-        title: 'Next.js',
-        link: 'https://nextjs.org',
-        icon: <TbBrandNextjs />
+        title: 'Tensorflow',
+        link: 'https://www.tensorflow.org/',
+        icon: <SiTensorflow />
     },
     {
         title: 'Tailwind',
@@ -54,13 +55,13 @@ const skills = [
         icon: <FaJava />
     },
     {
-        title: 'Spring Boot',
-        link: 'https://spring.io/projects/spring-boot',
-        icon: <SiSpringboot />
+        title: 'OpenAI',
+        link: 'https://platform.openai.com/',
+        icon: <SiOpenai />
     },
     {
-        title: 'PostgreSQL',
-        link: 'https://www.postgresql.org',
-        icon: <SiPostgresql />
+        title: 'Langchain',
+        link: 'https://www.langchain.com/',
+        icon: <SiChainlink />
     }
 ];

@@ -27,57 +27,37 @@ export function ExperienceSection() {
 
 const experience = [
     {
-        title: 'Pickleball.com',
+        title: 'Headstarter AI Projects',
         description: (
             <ul className="list-disc">
-                <li>Developed a full-stack enterprise applications using React and Nextjs.</li>
-                <li>
-                    Lead the frontend development team, focusing on creating, improving, and fine-tuning web applications to make them fast and
-                    reliable. My job includes planning our technical approaches, guiding the team, and actively coding and reviewing code.
-                </li>
+                <li><strong>Personal Portfolio Website:</strong> Built and deployed a personal site to showcase my work. Shared a design inspiration video and added AI features with a custom domain.</li>
+                <li><strong>Pantry Tracker App:</strong> Created a pantry management app using Next.js, Firebase, and MUI. Integrated image uploads and AI-based item classification with recipe suggestions.</li>
+                <li><strong>AI Customer Support Chatbot:</strong> Developed a multilingual AI chatbot using OpenAI API. Enabled GenAI responses, feedback mechanism, and personalized user experience.</li>
+                <li><strong>AI Flashcard SaaS:</strong> Built a flashcard app with Stripe payments and OpenAI. Launched with analytics, waitlist, and promoted via social media.</li>
+                <li><strong>AI Rate My Professor Assistant:</strong> Developed an AI-powered professor review tool with smart search, sentiment analysis, and trend tracking using Pinecone.</li>
             </ul>
         ),
-        badge: 'Software Engineer/Jan 2024 - Present'
+        badge: 'Software Engineering Fellow/Jun 2024 - Aug 2024'
     },
     {
-        title: 'Bosnia and Herzegovina Futures Foundation',
+        title: 'Google Girl Hackathon India 2025',
         description: (
             <ul className="list-disc">
-                <li>
-                    Actively engaged in personal development, focusing on enhancing my soft skills and public speaking abilities under the guidance of
-                    experienced mentors.
-                </li>
-                <li>
-                    Transitioned into a mentorship role, where I guided high school students in developing their soft skills and provided guidance in
-                    career planning and decision-making.
-                </li>
-                <li>Volunteered in web development team creating fls.ba info website</li>
+                <li>Semi-finalist with AI-powered prescription parsing system for pharmacists.</li>
+                <li>Integrated OpenAI GPT-4o and LangChain for real-time handwriting recognition and fraud detection.</li>
+                <li>Received Google swag and mentorship sessions from industry leaders.</li>
             </ul>
         ),
-        badge: 'Junior -> Senior -> Alumni/Sep 2021 – Present'
+        badge: 'Participant & Semi-Finalist / Jan 2025 – Mar 2025'
     },
     {
-        title: 'Atlantbh',
+        title: 'Open Source Contributor',
         description: (
             <ul className="list-disc">
-                <li>Developed a full-stack enterprise applications using React, PostgreSQL and Docker.</li>
-                <li>Conducted code reviews, contributing to maintaining high standards of code quality and team collaboration.</li>
-                <li>Provided mentorship to two IT college students, enhancing their practical software engineering skills.</li>
+                <li>Contributed bug fixes and documentation improvements to popular React libraries.</li>
+                <li>Built reusable components and created GitHub Issues to improve community projects.</li>
             </ul>
         ),
-        badge: 'Junior Software Engineer/Jun 2022 - Jan 2024'
-    },
-    {
-        title: 'Atlantbh (Intenship)',
-        description: (
-            <ul className="list-disc">
-                <li>Developed full-stack applications with React.js and Spring Boot.</li>
-                <li>
-                    Implemented essential software development practices such as GitHub for version control, Maven for project management, JUnit for
-                    testing, and applied design patterns and MVC architecture.
-                </li>
-            </ul>
-        ),
-        badge: 'Full Stack Developer/Feb 2022 - May 2022'
+        badge: 'Hacktoberfest/ Sept 2024 – Oct 2024'
     }
 ];
