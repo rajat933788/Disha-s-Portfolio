@@ -17,6 +17,12 @@ const words = [
         text: 'ML'
     },
     {
+        text: 'and'
+    },
+    {
+        text: 'Full Stack'
+    },
+    {
         text: 'developer',
         className: 'text-blue-500 dark:text-blue-500'
     }

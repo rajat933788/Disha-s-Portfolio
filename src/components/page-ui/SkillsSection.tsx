@@ -1,11 +1,12 @@
 import Link from 'next/link';
 import React from 'react';
-import { FaJava  } from 'react-icons/fa';
-import { SiChainlink,SiTailwindcss} from 'react-icons/si';
+import { FaJava } from 'react-icons/fa';
+import { SiChainlink, SiTailwindcss } from 'react-icons/si';
 import { SiOpenai, SiPython, SiTensorflow } from 'react-icons/si';
-import { TbBrandNextjs} from 'react-icons/tb';
 
 import { EvervaultCard, Icon } from '@/components/ui/evervault-card';
+// import { TbBrandNextjs} from 'react-icons/tb';
+
 
 export function SkillsSection() {
     return (
@@ -18,7 +19,7 @@ export function SkillsSection() {
                     <Link
                         key={idx}
                         href={item.link}
-                        className="relative mx-auto flex h-[13rem] w-full max-w-full flex-col items-start border border-black/[0.2] p-4 dark:border-white/[0.2]"
+                        className="relative mx-auto flex h-52 w-full max-w-full flex-col items-start border border-black/[0.2] p-4 dark:border-white/[0.2]"
                     >
                         <Icon className="absolute -left-3 -top-3 size-6 text-black dark:text-white" />
                         <Icon className="absolute -bottom-3 -left-3 size-6 text-black dark:text-white" />

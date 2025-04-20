@@ -12,21 +12,21 @@ const spaceGrotesk = Space_Grotesk({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
     metadataBase: new URL('https://safetpojskic.com'),
-    title: 'Disha Agrawa;',
+    title: 'Disha Agrawal',
     description: 'Welcome to my personal portfolio!',
-    applicationName: 'Safet Pojskic',
-    keywords: ['Safet Pojskic', 'portfolio', 'personal', 'website', 'developer', 'designer', 'engineer', 'software', 'engineer'],
+    applicationName: 'Disha Agrawal',
+    keywords: ['Disha Agrawal', 'portfolio', 'personal', 'website', 'developer', 'designer', 'engineer', 'software', 'engineer'],
     openGraph: {
-        siteName: 'Safet Pojskic',
-        title: 'Safet Pojskic',
+        siteName: 'Disha Agrawal',
+        title: 'Disha Agrawal',
         description: 'Welcome to my personal portfolio!',
         type: 'website',
         images: ['/opengraph-image.png']
     },
     twitter: {
         card: 'summary_large_image',
-        site: '@safetpojskic',
-        title: 'Safet Pojskic',
+        site: '@agarwaldisha',
+        title: 'Disha Agrawal',
         description: 'Welcome to my personal portfolio!',
         images: ['/opengraph-image.png']
     },

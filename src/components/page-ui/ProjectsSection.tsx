@@ -10,48 +10,47 @@ const products = [
     {
         title: 'Finance tracker',
         link: 'https://financetracker-mu.vercel.app/',
-        thumbnail: '/projects/mern-memories.png'
+        thumbnail: '/projects/finance-tracker.png'
     },
     {
-        title: 'Next Event',
-        link: 'https://github.com/spojskic/next-dj-events-frontend',
-        thumbnail: '/projects/next-event.png'
+        title: 'Pantry-Palette',
+        link: 'https://pantry-tracker-eight-gilt.vercel.app/',
+        thumbnail: '/projects/pantry-palette.png'
     },
     {
-        title: 'Devspace',
-        link: 'https://github.com/spojskic/next-devspace-blog',
-        thumbnail: '/projects/devspace.png'
+        title: 'Subscription Tracker',
+        link: 'https://sub-sync-eight.vercel.app/',
+        thumbnail: '/projects/subsync.png'
     },
 
     {
-        title: 'Google Clone',
-        link: 'https://github.com/MagicPojska/gulululgl-search-clone',
-        thumbnail: '/projects/google-clone.png'
+        title: 'Docker Manager',
+        link: 'https://github.com/agarwaldisha7616/updated_docker_project',
+        thumbnail: '/projects/Docker-Manager.png'
     },
     {
         title: 'Portfolio V1',
-        link: 'https://safetpojskic.netlify.app/',
+        link: 'https://agarwaldisha7616.github.io/landing-page/',
         thumbnail: '/projects/old-portfolio.png'
     },
     {
-        title: 'Dresscode',
-        link: '',
-        thumbnail: '/projects/dresscode.png'
+        title: 'Pharmacist Assistant',
+        link: 'https://github.com/agarwaldisha7616/Pharmacist-s-Assistant',
+        thumbnail: '/projects/pharmacist-assistant.png'
     },
-
+    // {
+    //     title: 'Artemis',
+    //     link: '',
+    //     thumbnail: '/projects/artemis.png'
+    // },
     {
         title: 'Portfolio V2',
         link: 'https://safetpojskic.com',
         thumbnail: '/projects/portfoliov2.png'
     },
     {
-        title: 'Music App',
-        link: 'https://github.com/spojskic/my-music-app',
-        thumbnail: '/projects/music-app.png'
-    },
-    {
-        title: 'Artemis',
+        title: 'EZPARKADE-Parking Booking Site',
         link: '',
-        thumbnail: '/projects/artemis.png'
+        thumbnail: '/projects/EZPARKADE.png'
     }
 ];

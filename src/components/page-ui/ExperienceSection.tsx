@@ -30,11 +30,25 @@ const experience = [
         title: 'Headstarter AI Projects',
         description: (
             <ul className="list-disc">
-                <li><strong>Personal Portfolio Website:</strong> Built and deployed a personal site to showcase my work. Shared a design inspiration video and added AI features with a custom domain.</li>
-                <li><strong>Pantry Tracker App:</strong> Created a pantry management app using Next.js, Firebase, and MUI. Integrated image uploads and AI-based item classification with recipe suggestions.</li>
-                <li><strong>AI Customer Support Chatbot:</strong> Developed a multilingual AI chatbot using OpenAI API. Enabled GenAI responses, feedback mechanism, and personalized user experience.</li>
-                <li><strong>AI Flashcard SaaS:</strong> Built a flashcard app with Stripe payments and OpenAI. Launched with analytics, waitlist, and promoted via social media.</li>
-                <li><strong>AI Rate My Professor Assistant:</strong> Developed an AI-powered professor review tool with smart search, sentiment analysis, and trend tracking using Pinecone.</li>
+                <li>
+                    <strong>Personal·Portfolio·Website:</strong>·Built·and·deployed·a·personal·site·to·showcase·my·work.
+                    Shared·a·design·inspiration·video·and·added·AI·features·with·a·custom·domain.
+                </li>
+                <li><strong>Pantry Tracker App:</strong> Created a pantry management app using Next.js, Firebase, and MUI. Integrated image uploads
+                    and AI-based item classification with recipe suggestions.
+                </li>
+                <li>
+                    <strong>AI Customer Support Chatbot:</strong> Developed a multilingual AI chatbot using OpenAI API. Enabled GenAI responses,
+                    feedback mechanism, and personalized user experience.
+                </li>
+                <li>
+                    <strong>AI Flashcard SaaS:</strong> Built a flashcard app with Stripe payments and OpenAI. Launched with analytics, waitlist, and
+                    promoted via social media.
+                </li>
+                <li>
+                    <strong>AI Rate My Professor Assistant:</strong> Developed an AI-powered professor review tool with smart search, sentiment
+                    analysis, and trend tracking using Pinecone.
+                </li>
             </ul>
         ),
         badge: 'Software Engineering Fellow/Jun 2024 - Aug 2024'
